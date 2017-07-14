@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">M02_3StartingActivities</string>
+    <string name="sign_in_activity_name">Sign In Activity</string>
+    <string name="multiply_activity_name">Multiplication Engine</string>
+    <string name="welcome_message">Starting Activity Demo</string>
+    <string name="button_signin">Start SignInActivity</string>
+    <string name="button_email">Send Email</string>
+    <string name="button_web">Open Web Browser</string>
+    <string name="hint_number">Enter a number</string>
+    <string name="button_startforresult">Start For Result (Multiply)</string>
+    <string name="signin_welcome">Welcome to SignIn Activity</string>
+    <string name="product_result">Product = %1$s</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_message" />
+
+    <Button
+        android:id="@+id/exact_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_signin" />
+
+    <Button
+        android:id="@+id/action_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_email" />
+
+    <Button
+        android:id="@+id/action_browse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_web" />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_number"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/start_for_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_startforresult" />
+
+    <TextView
+        android:id="@+id/result_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
