@@ -44,8 +44,10 @@ public class MainActivity extends Activity {
                 intent.setType("plain/text");
                 String[] recipientArray = {"john@uco.edu", "mary@gmail.com"};
                 intent.putExtra(Intent.EXTRA_EMAIL, recipientArray);
-                intent.putExtra(Intent.EXTRA_SUBJECT, "This is the subject of the email");
-                intent.putExtra(Intent.EXTRA_TEXT, "This is the body of the email.......... blah blah");
+                intent.putExtra(Intent.EXTRA_SUBJECT,
+                        "This is the subject of the email");
+                intent.putExtra(Intent.EXTRA_TEXT,
+                        "This is the body of the email.......... blah blah");
                 startActivity(intent);
             }
         });
